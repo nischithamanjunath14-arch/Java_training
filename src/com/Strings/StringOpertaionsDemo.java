@@ -25,8 +25,8 @@ public class StringOpertaionsDemo {
        System.out.println("Concate : "+s1.concat(" NEW Episodes"));
        String s4="";
        System.out.println("Is s4 Empty: "+ s4.isEmpty());
-       String sentence= "Suzie is Peppa's best friend";
-       String[] arr= sentence.split("  " );
+       String sentence= "Suzie ,is ,Peppa's  ,bestfriend";
+       String[] arr= sentence.split("," );
        for(String i : arr){
            System.out.print("  "+i);
        }
